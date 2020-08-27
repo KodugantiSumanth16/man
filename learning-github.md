@@ -9,5 +9,6 @@ Just a sample repo for learning the basics of github
     1. inner number
     
 [http://www.github.com]
-Started * learning * from ** Today **
+
+Started *learning* from **Today**
 
