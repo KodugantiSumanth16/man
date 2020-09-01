@@ -1,0 +1,51 @@
+# demo
+<!doctype html>
+<html>
+<head>
+<style> 
+table, th, td
+ {
+border:1px solid black;
+outline:2px dashedgreen;
+}
+ tr:nth-child(even) {background-color: #f2f2f2;}
+ [class|=top]{background:yellow;}
+
+</style>
+</head>
+<body>
+<table >
+
+  <tr class="top-header">
+    <th >Subject</th>
+    <th align ="left">Dbms</th>
+    <th align="left">Software Engineering</th>
+    <th align="left">Engineering Economics</th>
+    <th align="left">Java</th>
+    <th class="row1" align="left">Total</th>
+    <th class="row2" align="left">average</th>
+
+  </tr>
+  <tr>
+    <th>marks</th>
+    <td id="one" align="right">88</td>
+    <td align = "right">85</td>
+    <td align = "right">92</td>
+    <td align="right">77</td>
+    <td id="demo1"></td>
+    <td id="demo2"></td>
+  </tr>
+
+</table>
+<script>
+var x = 88 ;
+var y = 85;
+var z = 92;
+var a=77;
+var t = x + y +z + a;
+var avg=t/4;
+document.getElementById("demo1").innerHTML = t;
+document.getElementById("demo2").innerHTML = avg;
+</script>
+</body>
+</html>
